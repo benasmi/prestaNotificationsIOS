@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7396B5B51E1FBC920054882E /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396B5B41E1FBC920054882E /* OrderCell.swift */; };
+		7396B5DA1E1FF2D60054882E /* dollar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7396B5D91E1FF2D60054882E /* dollar_icon.png */; };
+		7396B5DC1E1FFCC20054882E /* System San Francisco Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7396B5DB1E1FFCC20054882E /* System San Francisco Display Regular.ttf */; };
+		73A2686F1E1D55C1002C2DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A2686E1E1D55C1002C2DD9 /* AppDelegate.swift */; };
+		73A268711E1D55C1002C2DD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A268701E1D55C1002C2DD9 /* ViewController.swift */; };
+		73A268741E1D55C1002C2DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A268721E1D55C1002C2DD9 /* Main.storyboard */; };
+		73A268771E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73A268751E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodeld */; };
+		73A268791E1D55C1002C2DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A268781E1D55C1002C2DD9 /* Assets.xcassets */; };
+		73A2687C1E1D55C1002C2DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A2687A1E1D55C1002C2DD9 /* LaunchScreen.storyboard */; };
+		73A268871E1D5786002C2DD9 /* manteka (1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73A268861E1D5786002C2DD9 /* manteka (1).ttf */; };
+		73A268891E1D6B17002C2DD9 /* prestashop-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A268881E1D6B17002C2DD9 /* prestashop-logo.png */; };
+		73A2688B1E1D77E2002C2DD9 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A2688A1E1D77E2002C2DD9 /* NotificationViewController.swift */; };
+		947F95E41E6313AA002219C9 /* InternetConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947F95E31E6313AA002219C9 /* InternetConnectivity.swift */; };
+		94883DCE1E50B7E100F8612E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94883DCD1E50B7E100F8612E /* GoogleService-Info.plist */; };
+		94883DD11E50B7F000F8612E /* menu28.png in Resources */ = {isa = PBXBuildFile; fileRef = 94883DCF1E50B7F000F8612E /* menu28.png */; };
+		94883DD21E50B7F000F8612E /* message_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94883DD01E50B7F000F8612E /* message_icon.png */; };
+		9492DEAC1E7AF24B00638BF9 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492DEAB1E7AF24B00638BF9 /* StartingViewController.swift */; };
+		9492DEB01E7AFDFA00638BF9 /* starting_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9492DEAF1E7AFDFA00638BF9 /* starting_icon.png */; };
+		9495E0F11E255318003B2511 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495E0F01E255318003B2511 /* MessageCell.swift */; };
+		B666B027E732CA7950C26DF1 /* Pods_PrestaNotificationsF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701582915917EE956179C843 /* Pods_PrestaNotificationsF.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		288344DC3BD5B7B6EEFA6985 /* Pods-PrestaNotificationsF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrestaNotificationsF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrestaNotificationsF/Pods-PrestaNotificationsF.debug.xcconfig"; sourceTree = "<group>"; };
+		701582915917EE956179C843 /* Pods_PrestaNotificationsF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrestaNotificationsF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D55CEB4D0AD8E40418184 /* Pods-PrestaNotificationsF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrestaNotificationsF.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrestaNotificationsF/Pods-PrestaNotificationsF.release.xcconfig"; sourceTree = "<group>"; };
+		7396B5B41E1FBC920054882E /* OrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		7396B5D91E1FF2D60054882E /* dollar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollar_icon.png; sourceTree = "<group>"; };
+		7396B5DB1E1FFCC20054882E /* System San Francisco Display Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "System San Francisco Display Regular.ttf"; sourceTree = "<group>"; };
+		73A2686B1E1D55C1002C2DD9 /* PrestaNotificationsF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrestaNotificationsF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A2686E1E1D55C1002C2DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73A268701E1D55C1002C2DD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73A268731E1D55C1002C2DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73A268761E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrestaNotificationsF.xcdatamodel; sourceTree = "<group>"; };
+		73A268781E1D55C1002C2DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73A2687B1E1D55C1002C2DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73A2687D1E1D55C1002C2DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A268861E1D5786002C2DD9 /* manteka (1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "manteka (1).ttf"; sourceTree = "<group>"; };
+		73A268881E1D6B17002C2DD9 /* prestashop-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "prestashop-logo.png"; sourceTree = "<group>"; };
+		73A2688A1E1D77E2002C2DD9 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		947F95E31E6313AA002219C9 /* InternetConnectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectivity.swift; sourceTree = "<group>"; };
+		94883DC61E4C609C00F8612E /* PrestaNotificationsF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrestaNotificationsF.entitlements; sourceTree = "<group>"; };
+		94883DCD1E50B7E100F8612E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94883DCF1E50B7F000F8612E /* menu28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu28.png; path = ../../menu28.png; sourceTree = "<group>"; };
+		94883DD01E50B7F000F8612E /* message_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = message_icon.png; path = ../../message_icon.png; sourceTree = "<group>"; };
+		9492DEAB1E7AF24B00638BF9 /* StartingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		9492DEAF1E7AFDFA00638BF9 /* starting_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starting_icon.png; path = ../../starting_icon.png; sourceTree = "<group>"; };
+		9495E0F01E255318003B2511 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A268681E1D55C1002C2DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B666B027E732CA7950C26DF1 /* Pods_PrestaNotificationsF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239E40EE1E2D6C3D21FCB8C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				701582915917EE956179C843 /* Pods_PrestaNotificationsF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73A268621E1D55C1002C2DD9 = {
+			isa = PBXGroup;
+			children = (
+				73A268831E1D5754002C2DD9 /* Resources */,
+				73A2686D1E1D55C1002C2DD9 /* PrestaNotificationsF */,
+				73A2686C1E1D55C1002C2DD9 /* Products */,
+				F156BE0FFF44937B5BBC23AD /* Pods */,
+				239E40EE1E2D6C3D21FCB8C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73A2686C1E1D55C1002C2DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73A2686B1E1D55C1002C2DD9 /* PrestaNotificationsF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73A2686D1E1D55C1002C2DD9 /* PrestaNotificationsF */ = {
+			isa = PBXGroup;
+			children = (
+				94883DCD1E50B7E100F8612E /* GoogleService-Info.plist */,
+				94883DC61E4C609C00F8612E /* PrestaNotificationsF.entitlements */,
+				73A2686E1E1D55C1002C2DD9 /* AppDelegate.swift */,
+				73A268701E1D55C1002C2DD9 /* ViewController.swift */,
+				73A268721E1D55C1002C2DD9 /* Main.storyboard */,
+				73A268781E1D55C1002C2DD9 /* Assets.xcassets */,
+				73A2687A1E1D55C1002C2DD9 /* LaunchScreen.storyboard */,
+				73A2687D1E1D55C1002C2DD9 /* Info.plist */,
+				73A268751E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodeld */,
+				73A2688A1E1D77E2002C2DD9 /* NotificationViewController.swift */,
+				7396B5B41E1FBC920054882E /* OrderCell.swift */,
+				9495E0F01E255318003B2511 /* MessageCell.swift */,
+				947F95E31E6313AA002219C9 /* InternetConnectivity.swift */,
+				9492DEAB1E7AF24B00638BF9 /* StartingViewController.swift */,
+			);
+			path = PrestaNotificationsF;
+			sourceTree = "<group>";
+		};
+		73A268831E1D5754002C2DD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73A268851E1D575F002C2DD9 /* Pictures */,
+				73A268841E1D575B002C2DD9 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		73A268841E1D575B002C2DD9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7396B5DB1E1FFCC20054882E /* System San Francisco Display Regular.ttf */,
+				73A268861E1D5786002C2DD9 /* manteka (1).ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		73A268851E1D575F002C2DD9 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				9492DEAF1E7AFDFA00638BF9 /* starting_icon.png */,
+				94883DCF1E50B7F000F8612E /* menu28.png */,
+				94883DD01E50B7F000F8612E /* message_icon.png */,
+				7396B5D91E1FF2D60054882E /* dollar_icon.png */,
+				73A268881E1D6B17002C2DD9 /* prestashop-logo.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		F156BE0FFF44937B5BBC23AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				288344DC3BD5B7B6EEFA6985 /* Pods-PrestaNotificationsF.debug.xcconfig */,
+				723D55CEB4D0AD8E40418184 /* Pods-PrestaNotificationsF.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73A2686A1E1D55C1002C2DD9 /* PrestaNotificationsF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A268801E1D55C1002C2DD9 /* Build configuration list for PBXNativeTarget "PrestaNotificationsF" */;
+			buildPhases = (
+				262F23FA2A6E8EA25BC5706C /* [CP] Check Pods Manifest.lock */,
+				73A268671E1D55C1002C2DD9 /* Sources */,
+				73A268681E1D55C1002C2DD9 /* Frameworks */,
+				73A268691E1D55C1002C2DD9 /* Resources */,
+				F0987DA2FFD82D50857AA04B /* [CP] Embed Pods Frameworks */,
+				423D57343524974795F45283 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrestaNotificationsF;
+			productName = PrestaNotificationsF;
+			productReference = 73A2686B1E1D55C1002C2DD9 /* PrestaNotificationsF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73A268631E1D55C1002C2DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ignas Paulionis";
+				TargetAttributes = {
+					73A2686A1E1D55C1002C2DD9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 863QMLG76R;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 73A268661E1D55C1002C2DD9 /* Build configuration list for PBXProject "PrestaNotificationsF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73A268621E1D55C1002C2DD9;
+			productRefGroup = 73A2686C1E1D55C1002C2DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73A2686A1E1D55C1002C2DD9 /* PrestaNotificationsF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73A268691E1D55C1002C2DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9492DEB01E7AFDFA00638BF9 /* starting_icon.png in Resources */,
+				73A2687C1E1D55C1002C2DD9 /* LaunchScreen.storyboard in Resources */,
+				73A268791E1D55C1002C2DD9 /* Assets.xcassets in Resources */,
+				7396B5DC1E1FFCC20054882E /* System San Francisco Display Regular.ttf in Resources */,
+				7396B5DA1E1FF2D60054882E /* dollar_icon.png in Resources */,
+				73A268871E1D5786002C2DD9 /* manteka (1).ttf in Resources */,
+				73A268891E1D6B17002C2DD9 /* prestashop-logo.png in Resources */,
+				94883DD11E50B7F000F8612E /* menu28.png in Resources */,
+				94883DCE1E50B7E100F8612E /* GoogleService-Info.plist in Resources */,
+				94883DD21E50B7F000F8612E /* message_icon.png in Resources */,
+				73A268741E1D55C1002C2DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262F23FA2A6E8EA25BC5706C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		423D57343524974795F45283 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrestaNotificationsF/Pods-PrestaNotificationsF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0987DA2FFD82D50857AA04B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrestaNotificationsF/Pods-PrestaNotificationsF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73A268671E1D55C1002C2DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A268711E1D55C1002C2DD9 /* ViewController.swift in Sources */,
+				73A2686F1E1D55C1002C2DD9 /* AppDelegate.swift in Sources */,
+				9492DEAC1E7AF24B00638BF9 /* StartingViewController.swift in Sources */,
+				7396B5B51E1FBC920054882E /* OrderCell.swift in Sources */,
+				73A2688B1E1D77E2002C2DD9 /* NotificationViewController.swift in Sources */,
+				947F95E41E6313AA002219C9 /* InternetConnectivity.swift in Sources */,
+				73A268771E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodeld in Sources */,
+				9495E0F11E255318003B2511 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73A268721E1D55C1002C2DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A268731E1D55C1002C2DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73A2687A1E1D55C1002C2DD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A2687B1E1D55C1002C2DD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73A2687E1E1D55C1002C2DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73A2687F1E1D55C1002C2DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73A268811E1D55C1002C2DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288344DC3BD5B7B6EEFA6985 /* Pods-PrestaNotificationsF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PrestaNotificationsF/PrestaNotificationsF.entitlements;
+				DEVELOPMENT_TEAM = 863QMLG76R;
+				INFOPLIST_FILE = PrestaNotificationsF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binded.PrestaNotificationsF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		73A268821E1D55C1002C2DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723D55CEB4D0AD8E40418184 /* Pods-PrestaNotificationsF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PrestaNotificationsF/PrestaNotificationsF.entitlements;
+				DEVELOPMENT_TEAM = 863QMLG76R;
+				INFOPLIST_FILE = PrestaNotificationsF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binded.PrestaNotificationsF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73A268661E1D55C1002C2DD9 /* Build configuration list for PBXProject "PrestaNotificationsF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A2687E1E1D55C1002C2DD9 /* Debug */,
+				73A2687F1E1D55C1002C2DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A268801E1D55C1002C2DD9 /* Build configuration list for PBXNativeTarget "PrestaNotificationsF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A268811E1D55C1002C2DD9 /* Debug */,
+				73A268821E1D55C1002C2DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		73A268751E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				73A268761E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodel */,
+			);
+			currentVersion = 73A268761E1D55C1002C2DD9 /* PrestaNotificationsF.xcdatamodel */;
+			path = PrestaNotificationsF.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 73A268631E1D55C1002C2DD9 /* Project object */;
+}
